@@ -24,7 +24,7 @@ gunicorn==19.7.1
 idna==2.7
 isodate==0.6.0
 itypes==1.1.0
-Jinja2==2.10
+Jinja2>=2.10.1
 Markdown==2.6.10
 MarkupSafe==1.0
 mccabe==0.6.1
@@ -45,5 +45,5 @@ requests==2.20.0
 requests-oauthlib==1.0.0
 six==1.11.0
 uritemplate==3.0.0
-
+urllib3>=1.24.2
 whitenoise==3.3.1
